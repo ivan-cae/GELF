@@ -1,0 +1,16 @@
+<resources>
+    <string name="apk_name">GELF App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="limpar">C</string>
+    <string name="backspace">⌫</string>
+    <string name="dividir">÷</string>
+    <string name="raiz">√</string>
+    <string name="quadrado">x²</string>
+    <string name="posneg">±</string>
+    <string name="abreParenteses">(</string>
+    <string name="fechaParenteses">)</string>
+
+</resources>

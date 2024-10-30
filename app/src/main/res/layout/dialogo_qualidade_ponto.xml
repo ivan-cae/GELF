@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/borda_separa_fragmento"
+    android:minWidth="600dp"
+    android:minHeight="850dp">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/botao_cancelar_dialogo_qualidade"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="106dp"
+        android:adjustViewBounds="false"
+        android:backgroundTintMode="src_in"
+        android:scaleType="fitXY"
+        android:src="@drawable/botao_cancelar_registros"
+        app:backgroundTint="@color/secondaryDarkColor"
+        app:fabCustomSize="60dp"
+        app:maxImageSize="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialogo_qualidade_ponto_item10"
+         />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/dialogo_qualidade_ponto_botao_registrar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="100dp"
+        android:adjustViewBounds="false"
+        android:backgroundTint="@color/primaryLightColor"
+        android:backgroundTintMode="src_in"
+        android:scaleType="fitXY"
+        android:src="@drawable/botao_finalizar_registro"
+        app:backgroundTint="@color/primaryLightColor"
+        app:fabCustomSize="60dp"
+        app:fabSize="normal"
+        app:maxImageSize="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/botao_cancelar_dialogo_qualidade"
+         />
+
+    <CheckBox
+        android:id="@+id/dialogo_qualidade_ponto_edit_item8"
+        style="@android:style/Widget.Material.Light.CompoundButton.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:buttonTint="#1C53EC"
+        android:checked="false"
+        android:imeOptions="actionNext"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogo_qualidade_ponto_item8"
+        app:layout_constraintEnd_toStartOf="@+id/dialogo_qualidade_ponto_letra_item8"
+        app:layout_constraintStart_toEndOf="@+id/dialogo_qualidade_ponto_item8"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item8" />
+
+    <CheckBox
+        android:id="@+id/dialogo_qualidade_ponto_edit_item7"
+        style="@android:style/Widget.Material.Light.CompoundButton.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:buttonTint="#1C53EC"
+        android:checked="false"
+        android:imeOptions="actionNext"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogo_qualidade_ponto_item7"
+        app:layout_constraintEnd_toStartOf="@+id/dialogo_qualidade_ponto_letra_item7"
+        app:layout_constraintStart_toEndOf="@+id/dialogo_qualidade_ponto_item7"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item7" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_letra_item7"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/dialogo_qualidade_ponto_letra_item6"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item7" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_letra_item8"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/dialogo_qualidade_ponto_letra_item7"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item8" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_letra_item5"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/dialogo_qualidade_ponto_letra_item4"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item5" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_letra_item10"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/dialogo_qualidade_ponto_edit_item10"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item10" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_letra_item9"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/dialogo_qualidade_ponto_letra_item8"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item9" />
+
+    <CheckBox
+        android:id="@+id/dialogo_qualidade_ponto_edit_item9"
+        style="@android:style/Widget.Material.Light.CompoundButton.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:buttonTint="#1C53EC"
+        android:checked="false"
+        android:imeOptions="actionNext"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintEnd_toStartOf="@+id/dialogo_qualidade_ponto_letra_item9"
+        app:layout_constraintStart_toEndOf="@+id/dialogo_qualidade_ponto_item9"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item9" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_letra_item6"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/dialogo_qualidade_ponto_edit_item6"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item6" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_letra_item3"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/dialogo_qualidade_ponto_edit_item3"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item3" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_letra_item4"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/dialogo_qualidade_ponto_edit_item4"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item4" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_letra_item2"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/dialogo_qualidade_ponto_edit_item2"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item2" />
+
+    <EditText
+        android:id="@+id/dialogo_qualidade_ponto_edit_item10"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:digits="1 2 3 4 5 6 7 8 9 0 ,"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal"
+        android:maxLength="9"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogo_qualidade_ponto_item10"
+        app:layout_constraintStart_toEndOf="@+id/dialogo_qualidade_ponto_item10"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item10" />
+
+    <EditText
+        android:id="@+id/dialogo_qualidade_ponto_edit_item6"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:digits="1 2 3 4 5 6 7 8 9 0 ,"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal"
+        android:maxLength="9"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogo_qualidade_ponto_item6"
+        app:layout_constraintStart_toEndOf="@+id/dialogo_qualidade_ponto_item6"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item6" />
+
+    <EditText
+        android:id="@+id/dialogo_qualidade_ponto_edit_item4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:digits="1 2 3 4 5 6 7 8 9 0 ,"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal"
+        android:maxLength="9"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogo_qualidade_ponto_item4"
+        app:layout_constraintStart_toEndOf="@+id/dialogo_qualidade_ponto_item4"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item4" />
+
+    <EditText
+        android:id="@+id/dialogo_qualidade_ponto_edit_item2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:digits="1 2 3 4 5 6 7 8 9 0 ,"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal"
+        android:maxLength="9"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogo_qualidade_ponto_item2"
+        app:layout_constraintStart_toEndOf="@+id/dialogo_qualidade_ponto_item2"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item2" />
+
+    <EditText
+        android:id="@+id/dialogo_qualidade_ponto_edit_item3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:digits="1 2 3 4 5 6 7 8 9 0 ,"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal"
+        android:maxLength="9"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogo_qualidade_ponto_item3"
+        app:layout_constraintStart_toEndOf="@+id/dialogo_qualidade_ponto_item3"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item3" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_item10"
+        android:layout_width="425dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialogo_qualidade_ponto_item9" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_item9"
+        android:layout_width="425dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialogo_qualidade_ponto_item8" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_item5"
+        android:layout_width="425dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialogo_qualidade_ponto_item4" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_item6"
+        android:layout_width="425dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialogo_qualidade_ponto_item5" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_item8"
+        android:layout_width="425dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialogo_qualidade_ponto_item7" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_item7"
+        android:layout_width="425dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialogo_qualidade_ponto_item6" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_item4"
+        android:layout_width="425dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialogo_qualidade_ponto_item3" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_item2"
+        android:layout_width="425dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialogo_qualidade_ponto_item1" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_item1"
+        android:layout_width="425dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="32dp"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView133" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_item3"
+        android:layout_width="425dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialogo_qualidade_ponto_item2" />
+
+    <TextView
+        android:id="@+id/textView133"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Ponto: "
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_numero"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView133"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/dialogo_qualidade_ponto_edit_item1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:digits="1 2 3 4 5 6 7 8 9 0 ,"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal"
+        android:maxLength="9"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogo_qualidade_ponto_item1"
+        app:layout_constraintStart_toEndOf="@+id/dialogo_qualidade_ponto_item1"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item1" />
+
+
+    <TextView
+        android:id="@+id/dialogo_qualidade_ponto_letra_item1"
+        android:layout_width="41dp"
+        android:layout_height="28dp"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/dialogo_qualidade_ponto_edit_item1"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item1" />
+
+    <CheckBox
+        android:id="@+id/dialogo_qualidade_ponto_edit_item5"
+        style="@android:style/Widget.Material.Light.CompoundButton.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:buttonTint="#1C53EC"
+        android:checked="false"
+        android:imeOptions="actionNext"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintBottom_toBottomOf="@+id/dialogo_qualidade_ponto_item5"
+        app:layout_constraintEnd_toStartOf="@+id/dialogo_qualidade_ponto_letra_item5"
+        app:layout_constraintStart_toEndOf="@+id/dialogo_qualidade_ponto_item5"
+        app:layout_constraintTop_toTopOf="@+id/dialogo_qualidade_ponto_item5" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/borda_separa_fragmento"
+        app:layout_constraintBottom_toTopOf="@+id/dialogo_qualidade_ponto_botao_registrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialogo_qualidade_ponto_numero">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
